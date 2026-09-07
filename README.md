@@ -1,23 +1,51 @@
-# Data Analyst OS
+# Data Analyst OS — V1
 
-A competency-based, AI-era Data Analyst learning system.
+A deep, evidence-based training system focused only on four core Data Analyst skills:
 
-## Principle
+- SQL
+- Python
+- Power BI
+- Excel
 
-This is not a course checklist. Every skill moves through:
+## Philosophy
 
-**Understand → Drill → Unseen Problem → Business Case → Project → Interview → Proof**
+This is not a course checklist. The loop is:
 
-Tracks run in parallel instead of being completed one after another.
+**Understand → Drill → Unseen Problem → Business Case → Project → Submission → Review**
 
-## Run locally
+Tracks run in parallel. You do not finish one tool before touching the others.
 
-Open `index.html` in a browser.
+## Tools
 
-## GitHub Pages
+- Website: curriculum, challenges, projects, progress
+- VS Code: SQL + Python + Git workflow
+- Excel Desktop: spreadsheet work
+- Power BI Desktop: BI work
+- GitHub: submission history and portfolio
 
-Push the repository to GitHub and enable Pages from the repository's Actions/Pages settings. A workflow is included under `.github/workflows/pages.yml`.
+## Data
 
-## Progress
+The repository includes reusable datasets. `data/commerce/commerce_lab.db` is a ready-to-use SQLite database for SQL practice, so a database server is not required for V1.
 
-The first version stores progress locally in the browser. The repository is the source of truth for curriculum/project content; local progress can later be upgraded to a GitHub-backed or JSON-sync system.
+## Repository submission convention
+
+Use these folders:
+
+```text
+sql/
+python/
+power-bi/
+excel/
+projects/
+data/
+```
+
+Each challenge on the website gives the recommended submission path.
+
+## Local use
+
+Open `index.html` in a browser or publish the repository with GitHub Pages from `main` / root.
+
+## V2
+
+V2 is deliberately out of scope until V1 is genuinely complete. Then we can add databases/warehousing, cloud, ML, AI-native analytics, automation and related advanced capabilities based on observed skill gaps and target roles.
